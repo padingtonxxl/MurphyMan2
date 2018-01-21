@@ -1,9 +1,11 @@
 import pygame
+from lib.Config import Config
 from lib.murphyMan2Game import MurphyMan2Game
 
 
 pygame.init()
-game = MurphyMan2Game("Murphy")
+config = Config("murphyman2.ini")
+game = MurphyMan2Game("Murphy", config)
 
 while 1:
     game.tick()
