@@ -11,4 +11,6 @@ while 1:
     for event in pygame.event.get():
         game.handleEvent(event)
 
+    game.update()
+
     game.display()
