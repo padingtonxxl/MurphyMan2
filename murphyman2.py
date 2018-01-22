@@ -1,5 +1,5 @@
 import pygame
-from lib.Config import Config
+from lib.config import Config
 from lib.murphyMan2Game import MurphyMan2Game
 
 
