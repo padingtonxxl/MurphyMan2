@@ -7,6 +7,9 @@ pygame.init()
 config = Config("murphyman2.ini")
 game = MurphyMan2Game("Murphy", config)
 
+pygame.mixer.music.load('res/Afterburner.mp3')
+pygame.mixer.music.play(-1)
+
 while 1:
     game.tick()
 
